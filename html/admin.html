@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techzone Admin</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+    
+    <div class="div-titulo">
+        <h1>Techzone</h1>
+    </div>
+    <div class="contenedor">
+        <div class="div-formulario">
+            <h2>Admin Menu:</h2>
+            <form action="#" id="formulario">
+                <input type="text" id="nombre" placeholder="Nombre Producto">
+                <input type="number" id="precio" placeholder="Precio Producto">
+                <button type="submit" id="btnAgregar">Agregar</button>
+            </form>
+        </div>
+        <div class="div-baseDeDatos">
+            <h2>Lista de Productos</h2>
+            <div class="div-productos">
+                <!-- Productos se mostrarán aquí -->
+            </div>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div class="div-cerrarSesion">
+            <input type="button" onclick="irLoginAdmin()" value="Cerrar Sesión">
+        </div>
+    </div>
+    <script src="../js/carroF.js"></script>
+</body>
+</html>
+
